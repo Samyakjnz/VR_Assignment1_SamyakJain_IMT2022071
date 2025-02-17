@@ -50,7 +50,7 @@ In this part, multiple overlapping images are stitched together into a single pa
 #### 1. Key Points Detection
 This image shows the key points detected in the overlapping images using the ORB detector.
 
-![Key Points Detection](key1.jpg)
+![Key Points Detection](key1.png)
 ![Key Points Detection](key2.png)
 ![Key Points Detection](key3.png)
 #### 2. Final Stitched Panorama
