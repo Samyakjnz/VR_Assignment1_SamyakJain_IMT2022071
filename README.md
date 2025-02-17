@@ -68,11 +68,26 @@ This is the final stitched panorama image, showing the result of aligning and st
 
 ---
 
-## Installation
+## Dependencies
 
-To run this project, you need Python 3.x and the required dependencies.
+To run this project, you need to have the following dependencies installed:
 
-### Step 1: Clone the repository
-```bash
-git clone https://github.com/yourusername/coin-detection-panorama.git
-cd coin-detection-panorama
+1. **OpenCV** - A library for computer vision tasks like image processing and manipulation.
+   - Install using: 
+     ```bash
+     pip install opencv-python
+     ```
+
+2. **NumPy** - A package for numerical computing in Python.
+   - Install using: 
+     ```bash
+     pip install numpy
+     ```
+
+3. **Matplotlib** - A plotting library for creating static, animated, and interactive visualizations in Python.
+   - Install using:
+     ```bash
+     pip install matplotlib
+     ```
+
+
