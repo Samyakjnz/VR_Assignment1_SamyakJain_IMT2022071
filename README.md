@@ -37,7 +37,11 @@ This image shows the contours drawn around each detected coin. The coins are hig
 This image shows each coin individually isolated after segmentation.
 
 ![Segmented Coins](segmented_coin_1.jpg)
+#### 4. Coins Detection
 
+This shows the correct number of coins being detected
+
+![Detected Coins](detect'.png)
 ---
 
 ## Part 2: Panorama Stitching
