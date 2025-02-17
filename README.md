@@ -15,16 +15,19 @@ In this section, we use edge detection (Canny edge detection) to detect and outl
 2. **Segment Coins**: Region-based segmentation techniques are used to isolate and display each coin individually.
 
 ### Visual Output for Part 1
+#### Original image
+![Original image](coinsIMAGE.jpg)
+
 
 #### 1. Canny Edge Detection
 This image shows the edges detected using the Canny algorithm. The edges are the initial step in identifying the coins.
 
-![Canny Edge Detection](images/canny_edges.jpg)
+![Canny Edge Detection](canny_edges.jpg)
 
 #### 2. Contours of Detected Coins
 This image shows the contours drawn around each detected coin. The coins are highlighted with green lines.
 
-![Coin Contours](images/coin_contours.jpg)
+![Coin Contours](coin_contours.jpg)
 
 #### 3. Segmented Coins
 This image shows each coin individually isolated after segmentation.
