@@ -6,17 +6,21 @@ This project involves two main tasks:
 1. **Coin Detection and Segmentation**: Detecting and counting scattered Indian coins in images using computer vision techniques.
 2. **Panorama Stitching**: Stitching multiple overlapping images into a single panoramic image using key points detection and image alignment.
 
-## Part 1: Coin Detection and Segmentation
 
-In this section, we use edge detection (Canny edge detection) to detect and outline the coins in an image. The coins are then segmented using region-based segmentation techniques to isolate individual coins.
+### Part 1: Coin Detection and Segmentation
 
-### Steps:
-1. **Detect Coins**: The edges are detected using the Canny algorithm, and contours are drawn to visualize the detected coins.
-2. **Segment Coins**: Region-based segmentation techniques are used to isolate and display each coin individually.
+In Part 1, we work with an image containing scattered Indian coins. This image serves as the input data for detecting and segmenting the coins.
 
-### Visual Output for Part 1
-#### Original image
+- **Input Image**: The image used for coin detection is a simple photograph of scattered Indian coins.
+- **Image Filename**: `coinsIMAGE.jpg`
+- **Image Description**: The image is taken in a controlled environment with good lighting, ensuring clear visibility of the coins. The coins are scattered in different orientations and partially overlapping, which adds a challenge for accurate detection.
+
+### Example Input Image
+
+Here’s the input image that is used in Part 1:
+
 ![Original image](coinsIMAGE.jpg)
+
 
 
 #### 1. Canny Edge Detection
