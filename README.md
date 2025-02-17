@@ -22,7 +22,7 @@ In this section, we use edge detection (Canny edge detection) to detect and outl
 #### 1. Canny Edge Detection
 This image shows the edges detected using the Canny algorithm. The edges are the initial step in identifying the coins.
 
-![Canny Edge Detection](canny_edges.jpg)
+![Canny Edge Detection](canny.jpg)
 
 #### 2. Contours of Detected Coins
 This image shows the contours drawn around each detected coin. The coins are highlighted with green lines.
