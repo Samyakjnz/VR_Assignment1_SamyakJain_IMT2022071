@@ -55,7 +55,7 @@ This image shows the key points detected in the overlapping images using the ORB
 #### 2. Final Stitched Panorama
 This is the final stitched panorama image, showing the result of aligning and stitching the images together.
 
-![Final Panorama](images/final_panorama.jpg)
+![Final Panorama](cropped_stitched_panorama.jpg)
 
 ---
 
