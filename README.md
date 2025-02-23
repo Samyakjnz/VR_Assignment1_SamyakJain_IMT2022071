@@ -44,9 +44,9 @@ This shows the correct number of coins being detected.
 
 ### **Observations**
 - The **Canny Edge Detection** successfully detects the edges of the coins, but overlapping regions may introduce noise.
-- The **contour detection** method effectively identifies coin boundaries, though minor inaccuracies may occur due to lighting variations.
-- **Segmentation results** are mostly accurate, but coins that overlap significantly may be harder to distinguish.
-- The final detection count aligns well with the expected number of coins, proving the method’s reliability in standard conditions.
+- The **contour detection** method effectively identifies coin boundaries, though minor inaccuracies may occur due to lighting variations, which I personally faced as as it was detecting the inner circle of the 10rs coins as well coiunting them as seperate coins thus making me tweaking the threasholds because of thich some contures are not complete circles but are stilll getting detected as comlete coins thus ensuring that the coins are still getting detected.
+- **Segmentation results** are mostly accurate, but coins that overlap significantly may be harder to distinguish, this is something i personally faced difficulty in as while making a random assortment of the coins the method couldnt process the overlapping coins.
+- The final detection count aligns well with the expected number of coins, proving the method’s reliability in standard conditions.'
 
 ---
 
